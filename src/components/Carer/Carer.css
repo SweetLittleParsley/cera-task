@@ -1,0 +1,47 @@
+.carer {
+  padding-right: 25px;
+}
+
+.carer__image {
+  height: 220px;
+  margin: 0 auto;
+  display: block;
+}
+
+.carer__bottom-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carer__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.carer__name {
+  font-family: Cairo;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.carer__availability {
+  font-family: Cairo;
+  font-size: 18px;
+  font-weight: 400;
+  color:#880E4F;
+}
+
+.carer__action {
+  height: 34px;
+  font-family: Cairo;
+  font-size: 12px;
+  font-weight: 700;
+  background: #880E4F;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  padding: 4px 14px;
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carers renders correctly 1`] = `
+<div>
+  <main>
+    <header
+      class="header"
+    >
+      <img
+        alt="cera logo"
+        class="header__logo"
+        src="cera-logo.png"
+      />
+      <div
+        class="header__headline"
+      >
+        <p
+          class="header__title"
+        >
+          Carers
+        </p>
+        <p
+          class="header__intro"
+        >
+          Here you'll be able to schedule your carers visits
+        </p>
+      </div>
+      <time
+        class="header__clock"
+        datetime="1632069927862"
+      >
+        17:45 PM
+      </time>
+    </header>
+    <section
+      class="carer-list"
+    />
+  </main>
+</div>
+`;
