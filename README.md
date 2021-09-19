@@ -1,6 +1,14 @@
 # Cera
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this solution I assumed there could be multiple pages and views, that's why App calls Carers - I'm explaining it because it might seem a bit strange to just add another level but that was why.
+
+For the availability check endpoint, I guess in a real scenario we would have to send a carer id, but I ignored that now. Same with the bookSlot endpoint, which would be a POST with the carer id and slot as the body
+
+I would have made for tests if I had more time, at least check the rendered Carers scene and its articles
+
+Regarding CSS, I would have liked to use SASS and would have used nesting and variables for the colors and fonts, at least. To simplify, due to the time limit of this challenge, I just used CSS.
+
+I would also have improved on the accessibility part, so the user could at least navigate with a keyboard, if I had more time.
 
 ## Available Scripts
 
@@ -17,7 +25,6 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -26,15 +33,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
